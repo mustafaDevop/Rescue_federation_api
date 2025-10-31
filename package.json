@@ -1,0 +1,48 @@
+{
+  "name": "rescue_federation_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/www.js",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www",
+    "ngrok": "ngrok http 7227"
+  },
+  "keywords": [
+    "api",
+    "security",
+    "express",
+    "node",
+    "mongodb",
+    "redis"
+  ],
+  "author": "Mustafadevop",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "debug": "^4.4.3",
+    "dotenv": "^17.2.3",
+    "expo": "^54.0.20",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.2.0",
+    "helmet": "^8.1.0",
+    "http-status": "^2.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.19.2",
+    "morgan": "^1.10.1",
+    "redis": "^5.9.0",
+    "winston": "^3.18.3",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "^54.0.6",
+    "typescript": "~5.9.2"
+  }
+}
