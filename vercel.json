@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "bin/www",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "devDependencies": true  
+  }
+  
