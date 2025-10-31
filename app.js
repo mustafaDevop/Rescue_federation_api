@@ -31,7 +31,7 @@ app.set('trust proxy', false);
 
 const corsOptions = {
   origin: [
-    '*', 
+    'https://rescue-federation-apii-3wg2k49r9-mustafadevops-projects.vercel.app/', 
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization', 'Accept', 'X-Requested-With'],
